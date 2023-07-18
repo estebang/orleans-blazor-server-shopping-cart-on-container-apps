@@ -3,12 +3,12 @@ name: Deploy to Azure Container Apps
 on:
   push:
     branches:
-    - main
+    - deploy
 
 env:
   UNIQUE_APP_NAME: orleanscart
   SILO_IMAGE_NAME: orleanscart-silo
-  AZURE_RESOURCE_GROUP_NAME: orleans-resourcegroup
+  AZURE_RESOURCE_GROUP_NAME: VSLive-ACA
   AZURE_RESOURCE_GROUP_LOCATION: eastus
 
 jobs:
