@@ -6,7 +6,7 @@ on:
     - deploy
 
 env:
-  UNIQUE_APP_NAME: vslive-orleanscart
+  UNIQUE_APP_NAME: vsliveorleanscart
   SILO_IMAGE_NAME: orleanscart-silo
   AZURE_RESOURCE_GROUP_NAME: VSLive-ACA
   AZURE_RESOURCE_GROUP_LOCATION: eastus
